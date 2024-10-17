@@ -1,0 +1,28 @@
+#mainimage{
+    text-align: center;
+    margin: auto 0;
+}
+
+main{
+    text-align: center;
+    margin: auto 0;
+}
+
+#circleimage img{
+    width: 200px;
+    border-radius: 200px;
+    margin: 40px;
+    border: 10px black;
+}
+
+body{
+    text-align:center;
+    background-color: gray;
+    margin: auto 0;
+}
+
+/* img{
+    width: 200px;
+    border-radius: 200px;
+    margin: 40px;
+} */
