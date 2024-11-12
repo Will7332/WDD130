@@ -273,3 +273,15 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
+
+/* Page 2 Styles */
+
+.rivers-p{
+    font-size: 1.5;
+}
+
+.rivercard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

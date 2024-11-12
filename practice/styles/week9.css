@@ -1,0 +1,56 @@
+.blog-post{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img{
+    width: 100%
+}
+
+h1{
+    color: black;
+}
+
+#postdate{
+    color: skyblue;
+}
+
+.blog-text{
+    color: darkgray;
+}
+
+.blog-stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+    background-color: gray;
+}
+
+#read{
+    grid-column: 1/2;
+    text-align: center;
+    background-color: rgb(63,91,139);
+    color: white;
+}
+
+#views{
+    grid-column: 2/3;
+    text-align: center;
+    background-color: rgb(63,91,139);
+    color: white;
+}
+
+#comments{
+    grid-column: 3/4;
+    text-align: center;
+    background-color: rgb(63,91,139);
+    color: white;
+}
+
+.numberstat{
+    font-size: 1.5em;
+    padding: 10px;
+}
