@@ -230,6 +230,105 @@ footer .social img{
     padding-top: 15px;
 }
 
+
+/* Page 2 Styles */
+
+main{
+    text-align:center;
+}
+
+.riversh1{
+    font-size: 2.5em;
+    color:black;
+    font-family: Londrina Solid, Helvetica, sans-serif;
+}
+
+
+.rivers-p{
+    font-size: 1.5;
+}
+
+.rivercard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 30px;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #0E7C7B;
+    color: white;
+}
+
+.rivercardtext{
+    text-align: left;
+}
+.rivercardimage{
+    width: 100%;
+    height: auto;
+    grid-column:1/2;
+    z-index: 0
+}
+
+.riversh2{
+    color: white;
+    align-items: center;
+    grid-column: 1/2;
+    z-index: 1;
+}
+/* Page 2 Styles */
+
+main{
+    text-align:center;
+}
+
+.rivers-h1{
+    font-size: 2;
+    color:#0E7C7B
+}
+
+
+.rivers-p{
+    font-size: 1.5;
+}
+
+.rivercard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    column-gap: 30px;
+    margin: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: #0E7C7B;
+    color: white;
+    /* align-items: center; */
+}
+
+.rivercardtext{
+    text-align: left;
+}
+.rivercardimage{
+    width: 100%;
+    max-height: 200px;
+    grid-column:1/2;
+    grid-row:1/2;
+    z-index: 0;
+    align-content: center;
+}
+
+.riversh2{
+    color: white;
+    font-size: 2em;
+    padding-top: 10px;
+    text-shadow: black 1px 3px;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -274,14 +373,3 @@ footer .social img{
     }
 }
 
-
-/* Page 2 Styles */
-
-.rivers-p{
-    font-size: 1.5;
-}
-
-.rivercard{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
