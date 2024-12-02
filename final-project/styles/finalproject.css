@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0 auto;
+    background-color:#FAF3DD;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:#539f9a;
+    padding: 0px 50px;
+    gap: 150px;
+    border-radius: 0px;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 75px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight:600;
+    font-size: 1em;
+}
+
+nav a:hover{
+    background-color: #4A7C59;
+    color: #FAF3DD;
+}
+
+.imglogo{
+    display: block;
+    width: auto;
+    height: 80px;
+    /* margin-right: 20px; */
+    margin: 0;
+    align-content: center;
+    border-radius: 0px;
+}
+
+.imgworld{
+    width: auto;
+    height: 50%;
+}
+
+/* HOME PAGE */
+main{
+    text-align: center;
+    margin: 100px;
+}
+
+.heroimg{
+    width: 100%;
+    align-content: center;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 100px;
+    /* margin: 0; */
+
+}
+
+h1{
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 3em;
+    margin-bottom: 75px;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#539f9a;
+    margin-left: -100px;
+    margin-right: -100px;
+    color: white;
+    font-size: 1.25em;
+}
+
+.mapslist{
+    text-align: left;
+    /* padding: 75px 50px; */
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Raleway, sans-serif;
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 1em;
+}
+
+.explorecard{
+    display: flex;
+    flex-direction: column;    
+    margin: 30px 75px;
+    padding: 30px 50px;
+    gap: 30px;
+    align-items: center;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    background-color:#8FC0A9;
+    color: white;
+}
+
+.explorecard p{
+    font-family: Raleway, sans-serif;
+    font-weight:400;
+}
+
+.explorecard a{
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#539f9a;
+    color: white;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px #6f7364;
+}
+
+.explorecard a:hover{
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#4A7C59;
+    color:#FAF3DD;
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+
+.bottomtext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.text{
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    font-size: 1.15em;
+    padding-right: 50px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8FC0A9;
+    padding: 15px 50px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+footer a:hover{
+    color: #FAF3DD;
+    text-decoration: underline;
+}
+
