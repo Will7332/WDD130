@@ -31,6 +31,11 @@ nav a:hover{
     color: #FAF3DD;
 }
 
+nav a:active{
+    background-color: #8FC0A9;
+    color: white;
+}
+
 .imglogo{
     display: block;
     width: auto;
@@ -162,6 +167,16 @@ h2{
     padding-right: 50px;
 }
 
+.imagerecent{
+    width: 100%;
+    display: flex;
+    flex-direction: left;
+    border: 5px solid #4A7C59;
+    border-radius: 25px;
+    margin-top: 25px;
+    box-shadow: 0px 3px 10px #6f7364;
+}
+
 footer{
     display: flex;
     align-items: center;
@@ -170,6 +185,7 @@ footer{
     padding: 15px 50px;
     color: white;
     font-family: Montserrat, sans-serif;
+    
 }
 
 footer a:hover{
@@ -177,3 +193,57 @@ footer a:hover{
     text-decoration: underline;
 }
 
+/* EXPLORE MAPS PAGE */
+/* 
+#bodyexplore{
+    padding: 20px;
+}
+
+.row{
+    margin: 10px;
+    padding: 8px;
+
+}
+
+.column{
+    max-width: 900px;
+    float: left;
+} */
+
+.row{
+    display: flex;
+    flex-direction: left;
+    font-family: Raledale, sans-serif;
+}
+
+.column{
+    /* border: 2px solid black; */
+    padding: 25px;
+    margin: 10px;
+    text-align: left;
+    background-color: #539f9a;
+    color: white;
+    border-radius: 15px;
+}
+
+.imgmap{
+    width: 600px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.imgmap:hover{
+    transform: scale(1.4);
+    align-content: center;
+}
+
+/* .imgmap:focus img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    outline: none;
+} */
