@@ -168,7 +168,8 @@ h2{
 }
 
 .imagerecent{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 960px;
     display: flex;
     flex-direction: left;
     border: 5px solid #4A7C59;
