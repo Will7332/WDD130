@@ -24,6 +24,7 @@ nav a{
     font-family: Montserrat, sans-serif;
     font-weight:600;
     font-size: 1em;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 nav a:hover{
@@ -195,21 +196,6 @@ footer a:hover{
 }
 
 /* EXPLORE MAPS PAGE */
-/* 
-#bodyexplore{
-    padding: 20px;
-}
-
-.row{
-    margin: 10px;
-    padding: 8px;
-
-}
-
-.column{
-    max-width: 900px;
-    float: left;
-} */
 
 .row{
     display: flex;
@@ -277,7 +263,41 @@ footer a:hover{
 .aboutmeimg{
     grid-column: 2/5;
     grid-row: 1/9;
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    height: 100%;
     border: 10px #8FC0A9 solid;
+    /* box-shadow: -1px 1px 5px 2px gray; */
+}
+
+#templeimg{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 25px;
+    max-width: 150%;
+    height: auto;
+}
+
+@media screen and (max-width: 1350px) {
+    .aboutme{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aboutmetext{
+        font-size: 0.75rem;
+        background-color:#539f9a;
+        padding: 25px;
+    }
+    .aboutmeimg{
+        width: 50%;
+    }
+
+    #templeimg{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        max-width: 100%;
+
+    }
+
 }
