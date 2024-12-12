@@ -172,7 +172,6 @@ h2{
     /* width: 100%; */
     max-width: 960px;
     display: flex;
-    /* flex-direction: left; */
     border: 5px solid #4A7C59;
     border-radius: 25px;
     margin-top: 25px;
