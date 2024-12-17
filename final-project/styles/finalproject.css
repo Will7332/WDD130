@@ -268,14 +268,28 @@ footer a:hover{
     /* box-shadow: -1px 1px 5px 2px gray; */
 }
 
-#templeimg{
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: 25px;
-    max-width: 150%;
-    height: auto;
+#aboutmeimages{
+    display:grid;
+    grid-template-columns: 2fr;
+    margin-top: 75px;
 }
+
+#aboutmelogo{
+    grid-column: 1/2;
+    /* max-width: 50%;
+    height: auto;
+    margin-left: 0px; */
+}
+
+#templeimg{
+    grid-column:2/3;
+    /* margin-top: 50px;
+    margin-left: auto;
+    margin-right: 0px;
+    max-width: 150%;
+    height: auto; */
+}
+
 
 @media screen and (max-width: 1350px) {
     .aboutme{
