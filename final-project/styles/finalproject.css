@@ -182,11 +182,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #2E8563;
+    background-color: #16837D;
     padding: 15px 50px;
     color: white;
     font-family: Montserrat, sans-serif;
+    font-weight:600;
+    margin-bottom: 0;
     
+}
+
+footer a{
+    text-decoration:none;
 }
 
 footer a:hover{
@@ -194,9 +200,9 @@ footer a:hover{
     text-decoration: underline;
 }
 
-footer a:after{
-    color: #FAF3DD;
-    text-decoration: underline;
+footer a:visited{
+    color: white;
+    text-decoration: none;
 }
 /* EXPLORE MAPS PAGE */
 
